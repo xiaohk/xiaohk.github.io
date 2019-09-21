@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+  <!--
+    I am modifying and using the "minimal" theme developed by orderedlist.
+    https://github.com/orderedlist/minimal
+
+    The theme is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License (https://creativecommons.org/licenses/by-sa/3.0/).
+
+    -- Jay
+  -->  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Jay Wang</title>
+
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <link rel="stylesheet" href="./stylesheets/pygment_trac.css">
+    <link rel="shortcut icon" type="image/png" href="./favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700|Montserrat:300,400,600,700|Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130177683-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-130177683-1');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <base target="_blank">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <img class="me" src="resources/img.jpg" height="245"><br></br>
+        <h1>Zijie (Jay) Wang</h1>
+        <p>I am a machine learning Ph.D. student at <a href="https://www.gatech.edu">Georgia Tech</a> advised by <a href="http://www.cc.gatech.edu/~dchau/">Polo Chau</a>.</p>
+        <p>CODA S1349F<br>
+        <a href="mailto:jayw@gatech.edu">jayw@gatech.edu</a><br>
+        <a href="./resources/cv.pdf">cv</a> | <a href="https://www.twitter.com/jay4w">twitter</a> | <a href="https://scholar.google.com/citations?user=eouAYvcAAAAJ&hl=en">google scholar</a></p>
+      </header>
+      <section>
+        <p>My research interests are interpretability, fairness and security of machine learning, visual analytics, and biomedical image analysis. </p>
+
+        <h2>News</h2>
+        <div class="news">
+          <div class="date">Aug. 2019</div>
+          <div class="content">
+            Submitted my first paper on <a href="https://www.biorxiv.org/content/10.1101/737346v1">bioRxiv</a>. Check it out!
+          </div>
+          <div class="date">Apr. 2019</div>
+          <div class="content">
+            Honored to recieve the <a href="https://awards.advising.wisc.edu/campus-wide-award-recipients/2016-university-book-store-award-recipients/">2019 University Book Store Academic Excellence Award</a>.
+          </div>
+          <span class="date">Apr. 2019</span>
+          <div class="content">
+            Excited to present my T-cell classification project as a poster in <a href="https://www.iscb.org/glbio2019">GLBIO '19</a>.
+          </div>
+          <span class="date">Mar. 2019</span>
+          <div class="content">
+            I will join <a href="https://poloclub.github.io">Polo Club</a> at <a href="https://cse.gatech.edu/">Georgia Tech CSE</a> as a Machine Learning PhD student in fall 2019. Go sting 'em! 🐝
+          </div>
+        </div>
+
+        <h2>Research</h2>
+
+        <p>My current research focuses on Human-Centered AI through interactive visualization.
+          I got my B.S. from <a href="https://www.wisc.edu">UW–Madison</a>, where I worked on fluorescent cell image classification and drug discovery with <a href="https://www.biostat.wisc.edu/~gitter/people.html">Anthony Gitter</a>.</p>
+
+        <h3 class="title">Cell Image Classification</h3>
+        <span class="time">Advisor: Anthony Gitter, Dec. 2017 - Aug. 2019</span>
+        <ul>
+          <li>Classify T-cell and breast cancer cell types using fluorescent images</li>
+          <li>Compare and analyze various classifiers: logistic regression, fully connected
+          neural network, convolutional neural network and transfer learning</li>
+          <li>Interpret feature representations from different learning layers in the transfer learning model</li>
+        </ul>
+
+        <h3 class="title">Cell Painting and Drug Discovery</h3>
+        <span class="time">Advisor: Anthony Gitter, July 2018 - Aug. 2019</span>
+        <ul>
+          <li>Analyze about 1 million 5-channel cell-painting images of bone tumor cells</li>
+          <li>Explore latent space between the image space and chemical molecule space</li>
+          <li>Study how to remove batch effects of microscopy images at scale</li>
+        </ul>
+
+        <h3 class="title">Video Object Tracking</h3>
+        <span class="time">Advisor: Yu Hen Hu, Feb. 2017 - Dec. 2017</span>
+        <ul>
+          <li>Study how to track car driver’s head position and orientation from low-quality traffic video</li>
+          <li>Develop semi-automatic video annotation software with Viola-Jones frontal face detector for training object tracking algorithms</li>
+        </ul>
+
+        <h3 class="title">Facial Reenactment</h3>
+        <span class="time">Advisor: Yu Hen Hu, June 2017 - Dec. 2017</span>
+        <ul>
+          <li>Implement real-time face tracking algorithms on iOS devices</li>
+          <li>Train a facial reenactment model using GANs and port it to iOS devices</li>
+        </ul>
+
+        <h2>Papers</h2>
+
+        <p><a href="https://www.biorxiv.org/content/10.1101/737346v1"><b>Classifying T cell activity in autofluorescence intensity images with convolutional neural networks</b></a>
+          <br>
+          Zijie J. Wang, Alex J. Walsh, Melissa C. Skala, Anthony Gitter. <i>bioRxiv</i> 2019.
+        </p>
+
+        <h2>Talks</h2>
+
+        <p><a href="./resources/slides/honor_thesis_symposium_2019.pdf"><b>Classifying T cell activity with convolutional neural networks</b></a>
+          <br>
+          Zijie J. Wang, Alex J. Walsh, Melissa C. Skala, Anthony Gitter
+          <br><i>In <a href="https://honors.wiscweb.wisc.edu/wp-content/uploads/sites/1038/2019/04/SymposiumSchedule2019email.pdf">UW–Madison Senior Honors Thesis Symposium '19</a>.</i> 
+        </p>
+
+        <h2>Posters</h2>
+
+        <p><a href="./resources/posters/undergrad_symposium_2018.pdf"><b>Using transfer learning to classify breast cancer cells with fluorescence imaging</b></a>
+          <br>
+          Zijie J. Wang, Tiffany Heaster, Quan Yin, Alex J. Walsh, Melissa C. Skala, Anthony Gitter
+          <br><i>In <a href="https://ugradsymposium.wisc.edu">UW–Madison Undergraduate Symposium '18</a>.</i> 
+        </p>
+
+        <p><a href="./resources/posters/glbio_2019.pdf"><b>Classifying T cell activity with convolutional neural networks</b></a>
+          <br>
+          Zijie J. Wang, Alex J. Walsh, Melissa C. Skala, Anthony Gitter
+          <br><i>In <a href="https://www.iscb.org/glbio2019">ISCB GLBIO '19</a>.</i> 
+        </p>
+
+        <h2>Selected Course Projects</h2>
+
+        <div class="demo">
+          <span class="demo"><a href="https://github.com/xiaohk/CS559-computational-graphics" target="_blank"><img class="demo" src="./resources/demo/graphic.png" /></a></span>
+          <span class="demo">Iteractive 2D, 2.5D and 3D computational graphics with shaders and textures, created by using HTML canvas and webGL. </span>
+        </div>
+
+        <div class="demo">
+          <span class="demo"><a href="https://github.com/xiaohk/stat333_project_2" target=”_blank”><img class="demo" src="./resources/demo/review.png" /></a></span>
+          <span class="demo">Sentiment analysis: predicting Yelp ratings based on text comments of Madison restaurants. This project won the in-class Kaggle competition. </span>
+        </div>
+
+        <div class="demo">
+          <span class="demo"><a href="http://nbviewer.jupyter.org/github/xiaohk/CS524-Group-Assignment-Optimization/blob/master/Wang.ipynb" target="_blank"><img class="demo" src="./resources/demo/optim.png" /></a></span>
+          <span class="demo">Flexible and robust Mixed Integer Quadratic Programming model written in Julia to solve a real-life group assignment problem. It won the best project.</span>
+        </div>
+        <br>
+
+        <h2>Fun</h2>
+
+        <div class="demo">
+          <span class="demo"><a href="https://github.com/xiaohk/clip2imgur" target="_blank"><img class="demo" src="./resources/demo/clip2imgur.png" /></a></span>
+          <span class="demo">Convenient macOS command line tool for uploading screen-shots from the clipboard to Imgur. This app is featured on the official <a href="https://help.imgur.com/hc/en-us/articles/209592766-Tools-for-Imgur" target="_blank">Imgur website</a>.</span>
+        </div>
+
+        <div class="demo">
+          <span class="demo"><a href="https://github.com/xiaohk/FaceData" target="_blank"><img class="demo" src="./resources/demo/face.jpg" /></a></span>
+          <span class="demo">MacOS GUI used to auto-annotate facial landmarks from a video. These landmarks can further be used to train GANs.</span>
+        </div>
+
+        <div class="demo">
+          <span class="demo"><a href="http://jayw-www.cs.wisc.edu/d3-china-map/" target="_blank"><img class="demo" src="./resources/demo/map.png" /></a></span>
+          <span class="demo">Interactive geographic visualization for studying where UW–Madison Chinese undergraduates are from.</span>
+        </div>
+
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
