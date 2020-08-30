@@ -35,8 +35,8 @@ code {
   min-height: 100vh;
 }
 
-@media (min-width: 415px) {
-  body,html {
+@media (min-width: 769px) {
+  body, html {
     font-size: 16px;
   }
 }
