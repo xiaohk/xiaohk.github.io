@@ -46,9 +46,3 @@ code {
     zoom: 60%;
   }
 }
-
-:root {
-  --pink-dark: #8c0032;
-  --pink-reg: #d81b60;
-  --pink-light: #ff5c8d;
-}
